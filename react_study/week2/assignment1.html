@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>SNS 피드</title>
+  </head>
+  <body>
+    <div class="header">
+      <span>SNS 피드</span>
+    </div>
+    <div class="main">
+      <div class="container main-header">
+        <div class="col1">
+          <input
+            type="text"
+            style="margin-bottom: 10px"
+            placeholder="이름을 입력하세요"
+            class="input"
+          />
+          <textarea
+            name=""
+            id=""
+            cols="90"
+            rows="3"
+            placeholder="내용을 입력하세요"
+            class="input"
+          ></textarea>
+        </div>
+        <div class="col2">
+          <button onclick="postClick()" class="button">작성</button>
+        </div>
+      </div>
+      <div id="timeline">
+        <div class="container">
+          <h1 class="owner">작성자</h1>
+          <p class="content">내용</p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
