@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week6 - assignment1</title>
+  </head>
+  <body>
+    <button onclick="getScore()">성적 확인</button>
+    <script>
+      function getScore() {
+        let v = prompt("성적 점수를 입력해주세요.");
+        alert("당신은 " + gradeCheck(v) + "입니다.");
+      }
+      function gradeCheck(score) {
+        if (score > 90) {
+          return "A";
+        } else if (score > 80) {
+          return "B";
+        } else if (score > 70) {
+          return "C";
+        } else if (score > 60) {
+          return "D";
+        } else {
+          return "F";
+        }
+      }
+    </script>
+  </body>
+</html>
