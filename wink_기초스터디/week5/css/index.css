@@ -1,0 +1,129 @@
+main {
+  height: calc(100vh - 7rem);
+  background-color: rgb(255, 214, 214);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > section {
+  width: 75%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 1rem;
+}
+
+section article > h2 {
+  font-size: 1.4rem;
+  padding: 0.8rem 0;
+  font-weight: bold;
+}
+
+aside {
+  padding: 10px 20px;
+  width: 25%;
+  height: 100%;
+  box-sizing: border-box;
+  border-left: 2px solid black;
+}
+
+.login {
+  height: 220px;
+  margin-bottom: 20px;
+  padding: 1rem 1.7rem;
+  margin-top: 30px;
+}
+
+.login__title {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.login__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 4rem;
+  margin: 1rem 0;
+}
+
+.login__input input {
+  width: 100%;
+}
+
+.login__btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.profile {
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 220px;
+  margin-bottom: 20px;
+  padding: 1rem 1.7rem;
+  margin-top: 30px;
+}
+
+.rec-section {
+  width: 100%;
+}
+
+.rec-post {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1.2rem;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.rec-post span {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.rec-post li {
+  font-size: 1.3rem;
+  margin: 0.3rem 0;
+}
+
+.last-recipe {
+  margin-top: 100px;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.last-recipe > span {
+  font-size: 1.4rem;
+}
+
+.last-recipe > ul {
+  margin-top: 30px;
+}
+
+.last-recipe > ul > li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}

@@ -1,0 +1,20 @@
+header {
+  height: 7rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+  height: 4rem;
+}
+
+.dropdown-menu {
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.dropdown-menu:hover {
+  color: turquoise;
+}
